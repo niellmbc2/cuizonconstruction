@@ -34,6 +34,18 @@ export default function Footer() {
           </div>
 
           <div>
+            <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+            <ul className="space-y-2 text-gray-400">
+              <li><Link href="/" className="hover:text-white transition-colors cursor-pointer">Home</Link></li>
+              <li><Link href="/about" className="hover:text-white transition-colors cursor-pointer">About Us</Link></li>
+              <li><Link href="/services" className="hover:text-white transition-colors cursor-pointer">Services</Link></li>
+              <li><Link href="/testimonials" className="hover:text-white transition-colors cursor-pointer">Testimonials</Link></li>
+              <li><Link href="/contact" className="hover:text-white transition-colors cursor-pointer">Contact</Link></li>
+              <li><Link href="/careers" className="hover:text-white transition-colors cursor-pointer">Careers</Link></li>
+            </ul>
+          </div>
+
+          <div>
             <h4 className="text-lg font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-gray-400">
               <li><Link href="/services" className="hover:text-white transition-colors cursor-pointer">Solid Plastering</Link></li>
@@ -63,7 +75,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 Cuizon Construction Plastering and Painting Services Ltd. All rights reserved.
+            2024 Cuizon Construction Plastering and Painting Services Ltd. All rights reserved.
           </p>
         </div>
       </div>
